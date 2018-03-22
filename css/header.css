@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+}
+
+.header_main {
+    background: black;
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+
+.brand {
+    height: 30px;
+    padding-left: 60px;
+}
+
+.header_nav-bar {
+    padding: 15px 0;
+}
+
+.nav {
+    float: right;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 60px;
+    font-weight: bold;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+}
