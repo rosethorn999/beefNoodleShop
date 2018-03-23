@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 微軟正黑體;
+}
+
+.row {
+    display: flex;
+}
+
+.alignCenter {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.container {
+    min-height: 800px;
+    position: relative;
+}
+
+.bestSell_area {
+    text-align: center;
+    margin: 0px auto;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.bestSellFather {
+    /* 水平均分子項目 */
+    display: flex;
+}
+
+.bestSellItem {
+    flex: 1;
+    margin: 0px auto;
+    float: left;
+    padding-top: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #b4292c;
+}
+
+.bestSellItem img {
+    padding: 10px;
+    width: 80%;
+}
+
+.bestSellItem:hover {
+    background: #b4292c;
+}
+
+.foodTypeButton {
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 0px auto;
+    width: 100px;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.foodTypeButton:hover {
+    background: #b4292c;
+    border: 1px solid #b4292c;
+}
+
+.foods {
+    padding: 0px 10%;
+    margin-top: 5%;
+}
+
+.food {
+    flex: 1;
+    width: 150px;
+    height: 150px;
+    margin: 0px auto;
+    float: left;
+    padding-top: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-bottom: 3px solid #b4292c;
+}
+
+.food>img {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.food>p {
+    margin-top: 10px;
+}
+
+.textInfo {
+    background-image: url("../image/31544626543_d6735759f1_h.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 30px 0px 0px 0px;
+    height: 100%;
+    color: #fff;
+}
+
+.underlineText {
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+.underlineText>h1 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
