@@ -89,7 +89,7 @@
     width: 80%;
 }
 
-.bestSellItem.active {
+.bestSellItem:hover {
     background: #b4292c;
 }
 
