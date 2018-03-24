@@ -28,8 +28,13 @@
 
 .menu-item {
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 20px;
     font-weight: bold;
+}
+
+.menu-item.none {
+    border: 1px solid #b4292c;
+    width: 40px;
 }
 
 .menu-item a {
