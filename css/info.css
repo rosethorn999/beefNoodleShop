@@ -23,6 +23,7 @@
     background-image: url("../image/31544626543_d6735759f1_h.jpg");
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     padding: 150px 0px 30px 0px;
     /* 上面要多一點因為要避開header的高 */
 }
