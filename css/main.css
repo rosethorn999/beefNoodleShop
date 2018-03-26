@@ -23,19 +23,16 @@
     background-repeat: no-repeat;
     background-position: center center;
     height: 100%;
-    padding: 30px 0px 30px 0px;
 }
 
 .target_news {
     float: left;
-    width: 40%;
-    height: 100vh;
+    width: 30%;
+    height: 80%;
     min-height: 500px;
-    max-height: 600px;
-    max-width: 500px;
     position: relative;
     background: #fff;
-    margin: 0 5% 0 5%;
+    margin: 5% 10%;
 }
 
 .targetHeader {
@@ -72,6 +69,8 @@
 .bestSellFather {
     /* 水平均分子項目 */
     display: flex;
+    margin: 50px 0px;
+    padding: 0px 10%;
 }
 
 .bestSellItem {
@@ -94,8 +93,8 @@
 }
 
 .bestSellBrand {
-    margin: 0px auto 30px auto;
-    height: 160px;
+    margin: 30px auto 20px auto;
+    height: 100px;
     background-image: url("../image/brand.png");
     background-repeat: no-repeat;
     background-position: center center;
