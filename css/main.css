@@ -56,7 +56,9 @@
     width: 100%;
 }
 
-/*fb*/
+.fb_block {
+    text-align: center;
+}
 
 .bestSell_area {
     text-align: center;
