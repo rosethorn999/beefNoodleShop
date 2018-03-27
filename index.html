@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
     <title>牛小棧</title>
 </head>
 
@@ -47,10 +48,32 @@
             </ul>
         </nav>
     </header>
-    <div class="banner_area">
-        <!-- todo:sliderBar -->
-        <div class="banner_image"></div>
+
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img class="swiper-img-insideDiv" src="./image/banner_Noodle1.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img class="swiper-img-insideDiv" src="./image/banner_Noodle1.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img class="swiper-img-insideDiv" src="./image/banner_Noodle1.jpg">
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
     </div>
+
     <div class="banner_area">
         <div class="target_news_container">
             <div class="target_news">
@@ -137,6 +160,7 @@
     <!-- Optional JavaScript -->
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script defer src="./css/fontawesome-free-5.0.6/js/fontawesome-all.js"></script>
+    <script src="./js/swiper.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
