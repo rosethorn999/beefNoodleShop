@@ -71,10 +71,10 @@ $(function () {
       var food = bsetSellList[index];
       var title = document.querySelector(".modal-header h1");
       var img = document.querySelector(".modal-body img");
-      var info = document.querySelector(".modal-body p");
+      var info = document.querySelector(".modal-body .infoParent");
       title.textContent = food.name;
       img.src = "./image/" + food.img;
-      info.outerHTML = food.info;
+      info.innerHTML = food.info;
 
       modal.style.display = "block";
     }, false)
