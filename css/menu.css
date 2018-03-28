@@ -78,22 +78,28 @@
 
 .foods {
     padding: 0px 10%;
-    margin: 1% 0px;
+    margin: 2.5% 0px;
+    min-width: 750px;
+    height: 100%;
+    display: block;
+    position: relative;
 }
 
 .food {
+    position: relative;
     flex: 1;
-    width: 150px;
-    height: 150px;
+    width: 31%;
+    min-width: 270px;
+    /* height: 150px; */
     margin: 0px auto;
-    float: left;
+    display: inline-block;
     padding-top: 10px;
     margin: 10px;
     cursor: pointer;
-    border-bottom: 3px solid #b4292c;
 }
 
 .food>img {
+    width: 150px;
     height: 100%;
     min-height: 150px;
     margin: 0px auto;
@@ -101,6 +107,11 @@
 
 .food>p {
     margin-top: 10px;
+}
+
+.border {
+    margin-top: 10px;
+    border-bottom: 3px solid #b4292c;
 }
 
 .textInfo {
