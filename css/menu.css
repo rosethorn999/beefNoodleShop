@@ -57,6 +57,10 @@
     margin: 20px auto;
 }
 
+.food-type-name {
+    margin-top: 50px;
+}
+
 .foodTypeButton {
     color: #fff;
     border: 1px solid #fff;
@@ -74,7 +78,7 @@
 
 .foods {
     padding: 0px 10%;
-    margin: 5% 0px;
+    margin: 1% 0px;
 }
 
 .food {
@@ -91,6 +95,7 @@
 
 .food>img {
     height: 100%;
+    min-height: 150px;
     margin: 0px auto;
 }
 
