@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/cssReset.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/menu.css">
     <title>牛小棧</title>
 </head>
@@ -40,29 +41,26 @@
     <div class="container">
         <div class="textInfo">
             <div class="bestSell_area">
-                <div class="row">
-                    <div class="underlineText">
-                        <h1>熱賣商品</h1>
-                    </div>
-                </div>
+                <div class="bestSellBrand"></div>
+                <h1>熱門商品</h1>
                 <div class="bestSellFather">
-                    <div class="bestSellItem">
+                    <div class="bestSellItem" index="0">
                         茄(牛/雞)燴麵
                         <img src="./image/Menu_SpicyKoreanBeef.png">
                     </div>
-                    <div class="bestSellItem">
+                    <div class="bestSellItem" index="1">
                         咖哩(牛/雞)燴麵
                         <img src="./image/Menu_SpicyKoreanBeef.png">
                     </div>
-                    <div class="bestSellItem">
+                    <div class="bestSellItem" index="2">
                         紅趜(牛/雞)燴麵
                         <img src="./image/Menu_SpicyKoreanBeef.png">
                     </div>
-                    <div class="bestSellItem">
+                    <div class="bestSellItem" index="3">
                         黯然銷魂(牛/雞)飯
                         <img src="./image/Menu_SpicyKoreanBeef.png">
                     </div>
-                    <div class="bestSellItem">
+                    <div class="bestSellItem" index="4">
                         誠實豆沙(牛/雞)包
                         <img src="./image/Menu_SpicyKoreanBeef.png">
                     </div>
@@ -181,10 +179,28 @@
         </div>
     </footer>
 
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h1>Title</h1>
+            </div>
+            <div class="modal-body">
+                <div class="infoParent">
+                    <p>detail</p>
+                </div>
+                <img src="./image/Menu_SpicyKoreanBeef.png">
+            </div>
+            <div class="modal-footer">
+                <button class="footer-close-button" type="button">Close</button>
+            </div>
+        </div>
+
+    </div>
     <!-- Optional JavaScript -->
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script defer src="./css/fontawesome-free-5.0.6/js/fontawesome-all.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
