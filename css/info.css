@@ -14,6 +14,10 @@
     text-align: center;
 }
 
+.alignCenter2 {
+    margin: 0px auto;
+}
+
 .container {
     min-height: 800px;
     position: relative;
@@ -44,12 +48,13 @@
 }
 
 .phone_address {
+    padding-left: 20%;
     float: left;
-    text-align: center;
+    text-align: left;
     width: 50%;
 }
 
 .map {
-    margin: 0px auto;
+    margin: 0px auto 70px auto;
     height: 70vh;
 }
