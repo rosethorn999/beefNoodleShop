@@ -4,14 +4,14 @@ $(function () {
 
   function initModal() {
     var modal = document.getElementById('myModal'); // Get the modal
-    var bestSellItems = document.querySelectorAll(".bestSellItem"); // Get the button that opens the modal
+    var foodItems = document.querySelectorAll("[openFoodModal]"); // Get the button that opens the modal
     var span = document.getElementsByClassName("close")[0]; // Get the <span> element that closes the modal
     var closeButton = document.querySelector(".footer-close-button"); // Get the <span> element that closes the modal
 
     // When the user clicks on the button, open the modal
-    for (let i = 0; i < bestSellItems.length; i++) {
-      const bestSellItem = bestSellItems[i];
-      bestSellItem.addEventListener('click', (e) => {
+    for (let i = 0; i < foodItems.length; i++) {
+      const foodItem = foodItems[i];
+      foodItem.addEventListener('click', (e) => {
         console.log(e.eventPhase);
         let bsetSellList = [{
             name: "茄(牛/雞)燴麵",
@@ -39,7 +39,7 @@ $(function () {
             info: "<p>叫我第五名</p><第二段話>"
           }
         ];
-        var index = Number(e.currentTarget.getAttribute("index"));
+        var index = Number(e.currentTarget.getAttribute("openFoodModal"));
         var food = bsetSellList[index];
         var title = document.querySelector(".modal-header h1");
         var img = document.querySelector(".modal-body img");
