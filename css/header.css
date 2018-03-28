@@ -12,6 +12,7 @@
 .brand {
     height: 30px;
     padding-left: 60px;
+    transform: scale(1.60);
 }
 
 .header_nav-bar {
