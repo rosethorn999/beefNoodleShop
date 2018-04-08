@@ -2,12 +2,10 @@
 
 Preview:
 ====================
-- view1
-![view1](http://via.placeholder.com/350x150)
-- view2
-![view1](http://via.placeholder.com/350x150)
-- view3
-![view1](http://via.placeholder.com/350x150)
+- GIF
+![previewGif](https://raw.githubusercontent.com/rosethorn999/beefNoodleShop/master/previewDesktop.gif)
+- Demo
+[Demo](https://rosethorn999.github.io/porjects/beefNoodleShop/index.html)
 
 Usage:
 ====================
