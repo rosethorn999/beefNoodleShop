@@ -1,3 +1,121 @@
-img{
-    border-radius: 5px;    
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 微軟正黑體;
+}
+
+.banner_area {
+    height: 100vh;
+    min-height: 800px;
+    position: relative;
+}
+
+.banner_image {
+    background-image: url("../image/banner_Noodle1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+
+.target_news_container {
+    background-image: url("../image/31544626543_d6735759f1_h.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+}
+
+.target_news {
+    float: left;
+    width: 30%;
+    height: 80%;
+    min-height: 500px;
+    position: relative;
+    background: #fff;
+    margin: 5% 10%;
+}
+
+.targetHeader {
+    height: 50px;
+    text-align: center;
+    background: #b4292c;
+    color: #fff;
+    line-height: 50px;
+}
+
+.targetbody {
+    height: 90%;
+    padding: 10px;
+}
+
+.targetbody p {
+    margin: 10px 0px;
+}
+
+.targetbody img {
+    width: 100%;
+}
+
+.fb_block {
+    text-align: center;
+}
+
+.bestSell_area {
+    text-align: center;
+    margin: 0px auto;
+    background: #383838;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.bestSellFather {
+    /* 水平均分子項目 */
+    display: flex;
+    margin: 50px 0px;
+    padding: 0px 10%;
+}
+
+.bestSellItem {
+    flex: 1;
+    margin: 0px auto;
+    float: left;
+    padding-top: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: 1px solid #b4292c;
+}
+
+.bestSellItem img {
+    padding: 10px;
+    width: 80%;
+}
+
+.bestSellItem:hover {
+    background: #b4292c;
+}
+
+.bestSellBrand {
+    margin: 30px auto 20px auto;
+    height: 100px;
+    background-image: url("../image/brand.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.moreItem {
+    background: #b4292c;
+    margin: 0px auto;
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-img-insideDiv {
+    width: 100%;
+    height: 100%;
 }

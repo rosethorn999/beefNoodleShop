@@ -1,0 +1,29 @@
+.backToTop {
+    width: 70px;
+    height: 70px;
+    /* background-color: #b4292c; */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.backToTop:hover {
+    width: 75px;
+    height: 75px;
+    transition: .1s;
+}
+
+.backToTop img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}

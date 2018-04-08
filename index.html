@@ -1,30 +1,189 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-TW">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/main.css">
-
-  <title>Hello, beefNoodleShopp!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/cssReset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/backToTop.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <title>牛小棧</title>
 </head>
 
 <body>
-  <h1>Hello, beefNoodleShop!</h1>
-  <img src="./image/20131219-taiwan-eats-beef-noodle-soup-finished.jpg" title="beefNoodle">
-  <p class="content"></p>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <a class="backToTop">
+        <img src="./image/backtotop-icon.png">
+    </a>
+    <header class="header_main">
+        <nav class="header_nav-bar">
+            <a href="./">
+                <img class="brand" src="./image/brand.png" title="牛小棧">
+            </a>
+            <ul class="nav">
+                <li class="menu-item">
+                    <a href="./">首頁</a>
+                </li>
+                <li class="menu-item none">
+                </li>
+                <li class="menu-item">
+                    <a href="./info">關於小棧</a>
+                </li>
+                <li class="menu-item none">
+                </li>
+                <li class="menu-item">
+                    <a href="./menu">小棧菜單</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-  <i class="fas fa-user"></i>
-  <i class="far fa-user"></i>
-  <i class="fab fa-github-square"></i>
-  
-  <!-- Optional JavaScript -->
-  <script src="./js/jquery-3.3.1.min.js"></script>
-  <script defer src="./css/fontawesome-free-5.0.6/js/fontawesome-all.js"></script>
-  <script src="./js/main.js"></script>
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img class="swiper-img-insideDiv" src="./image/banner_Noodle1.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img class="swiper-img-insideDiv" src="./image/banner_Noodle2.jpg">
+            </div>
+            <div class="swiper-slide">
+                <img class="swiper-img-insideDiv" src="./image/banner_Noodle3.jpg">
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+    <div class="banner_area">
+        <div class="target_news_container">
+            <div class="target_news">
+                <div class="targetHeader">
+                    <h2>牛小棧的宗旨</h2>
+                </div>
+                <div class="targetbody">
+                    <p>
+                        山一內之作心年漸黃。
+                    </p>
+                    <p>
+                        朋木如務。試名日果值為事地聽臺經著錯數哥證傳，看來灣上愛失更體求筆停歷科別認候一經要，事沒他指通有，為們樂度海要除，經院可內。創品朋試得我片懷關寶接大裡錯。都著險身來現消天：入白分驚了一以屋度影不的不水著結受古興形可是正那是多：來之雖經間論；行是使生們。
+                    </p>
+                    <p>
+                        於動師方麼？留發他前的到要別龍女民們校用心月座目色色成嗎高。問代冷要裡但片。就至玩不的後臺種海唱遊？
+                    </p>
+                    <img src="./image/1468684603-578247471.jpg">
+                </div>
+            </div>
+            <div class="target_news">
+                <div class="targetHeader">
+                    <h2>最新消息</h2>
+                </div>
+                <div class="targetbody fb_block">
+                    <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+                        data-hide-cover="false" data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/facebook">Facebook</a>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bestSell_area">
+        <div class="bestSellBrand"></div>
+        <h1>熱門商品</h1>
+        <div class="bestSellFather">
+            <div class="bestSellItem" openFoodModal="0">
+                茄(牛/雞)燴麵
+                <img src="./image/Menu_SpicyKoreanBeef.png">
+            </div>
+            <div class="bestSellItem" openFoodModal="1">
+                咖哩(牛/雞)燴麵
+                <img src="./image/Menu_SpicyKoreanBeef.png">
+            </div>
+            <div class="bestSellItem" openFoodModal="2">
+                紅趜(牛/雞)燴麵
+                <img src="./image/Menu_SpicyKoreanBeef.png">
+            </div>
+            <div class="bestSellItem" openFoodModal="3">
+                黯然銷魂(牛/雞)飯
+                <img src="./image/Menu_SpicyKoreanBeef.png">
+            </div>
+            <div class="bestSellItem" openFoodModal="4">
+                誠實豆沙(牛/雞)包
+                <img src="./image/Menu_SpicyKoreanBeef.png">
+            </div>
+        </div>
+        <div class="moreItem">
+            <a href="./menu">更多商品</a>
+        </div>
+    </div>
+    <footer class="row">
+        <div class="footerPart0">
+            <img src="./image/brand-black.png" title="牛小棧">
+            <p>Copyright © 2018 牛小棧 All Rights.</p>
+        </div>
+        <div class="footerPart1">
+            <p>聯絡資訊</p>
+            <p>地址： 台北市信義區市府路1號</p>
+            <p>電話： 02 1234 5678</p>
+        </div>
+        <div class="footerPart2">
+            <div>
+                <a href="#">
+                    <img src="./image/facebook-2-64x64.png">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h1>Title</h1>
+            </div>
+            <div class="modal-body">
+                <div class="infoParent">
+                    <p>detail</p>
+                </div>
+                <img src="./image/Menu_SpicyKoreanBeef.png">
+            </div>
+            <div class="modal-footer">
+                <button class="footer-close-button" type="button">Close</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

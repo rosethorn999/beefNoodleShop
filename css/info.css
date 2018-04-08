@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 微軟正黑體;
+}
+
+.row {
+    display: flex;
+}
+
+.alignCenter {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.alignCenter2 {
+    margin: 0px auto;
+}
+
+.container {
+    min-height: 800px;
+    position: relative;
+}
+
+.textInfo {
+    background-image: url("../image/31544626543_d6735759f1_h.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 0px 30px 0px;
+    /* 上面要多一點因為要避開header的高 */
+}
+
+.textInfo>.row {
+    height: 100px;
+    color: #fcfc55;
+}
+
+.underlineText {
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+.underlineText>h1 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.phone_address {
+    padding-left: 20%;
+    float: left;
+    text-align: left;
+    width: 50%;
+}
+
+.map {
+    margin: 0px auto 70px auto;
+    height: 70vh;
+}
