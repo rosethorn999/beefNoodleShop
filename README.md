@@ -3,7 +3,7 @@
 Preview:
 ====================
 - GIF ![previewGif](https://raw.githubusercontent.com/rosethorn999/beefNoodleShop/master/previewDesktop.gif)
-- [Demo](https://rosethorn999.github.io/porjects/beefNoodleShop/index.html)
+- [Demo](https://rosethorn999.github.io/projects/beefNoodleShop/index.html)
 
 Usage:
 ====================
