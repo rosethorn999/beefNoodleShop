@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="zh-TW">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/cssReset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/backToTop.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <title>牛小棧</title>
+</head>
+
+<body>
+    <a class="backToTop">
+        <img src="./image/backtotop-icon.png">
+    </a>
+    <header class="header_main">
+        <nav class="header_nav-bar">
+            <a href="./">
+                <img class="brand" src="./image/brand.png" title="牛小棧">
+            </a>
+            <ul class="nav">
+                <li class="menu-item">
+                    <a href="./">首頁</a>
+                </li>
+                <li class="menu-item none">
+                </li>
+                <li class="menu-item">
+                    <a href="./info">關於小棧</a>
+                </li>
+                <li class="menu-item none">
+                </li>
+                <li class="menu-item">
+                    <a href="./menu">小棧菜單</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="textInfo">
+            <div class="bestSell_area">
+                <div class="bestSellBrand"></div>
+                <h1>熱門商品</h1>
+                <div class="bestSellFather">
+                    <div class="bestSellItem" openFoodModal="0">
+                        茄(牛/雞)燴麵
+                        <img src="./image/Menu_SpicyKoreanBeef.png">
+                    </div>
+                    <div class="bestSellItem" openFoodModal="1">
+                        咖哩(牛/雞)燴麵
+                        <img src="./image/Menu_SpicyKoreanBeef.png">
+                    </div>
+                    <div class="bestSellItem" openFoodModal="2">
+                        紅趜(牛/雞)燴麵
+                        <img src="./image/Menu_SpicyKoreanBeef.png">
+                    </div>
+                    <div class="bestSellItem" openFoodModal="3">
+                        黯然銷魂(牛/雞)飯
+                        <img src="./image/Menu_SpicyKoreanBeef.png">
+                    </div>
+                    <div class="bestSellItem" openFoodModal="4">
+                        誠實豆沙(牛/雞)包
+                        <img src="./image/Menu_SpicyKoreanBeef.png">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="underlineText">
+                    <h1>牛小棧美食</h1>
+                </div>
+            </div>
+            <div class="row foodTypes">
+                <a href="#typeA" class="foodTypeButton">燴麵</a>
+                <a href="#typeB" class="foodTypeButton">燴飯</a>
+                <a href="#typeC" class="foodTypeButton">小菜</a>
+                <a href="#typeD" class="foodTypeButton">湯品</a>
+            </div>
+            <div class="row">
+                <div id="typeA" class="alignCenter food-type-name">
+                    <h2>燴麵</h2>
+                </div>
+            </div>
+            <div class="row foods">
+                <div class="food" openFoodModal="0">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>番茄(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+                <div class="food" openFoodModal="1">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>咖哩(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+                <div class="food" openFoodModal="2">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>紅趜(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+                <div class="food" openFoodModal="2">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>紅趜(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="typeB" class="alignCenter food-type-name">
+                    <h2>燴飯</h2>
+                </div>
+            </div>
+            <div class="row foods">
+                <div class="food" openFoodModal="0">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>番茄(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+                <div class="food" openFoodModal="1">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>咖哩(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+                <div class="food" openFoodModal="2">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>紅趜(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="typeC" class="alignCenter food-type-name">
+                    <h2>小菜</h2>
+                </div>
+            </div>
+            <div class="row foods">
+                <div class="food" openFoodModal="0">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>番茄(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+                <div class="food" openFoodModal="1">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>咖哩(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+                <div class="food" openFoodModal="2">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>紅趜(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="typeD" class="alignCenter food-type-name">
+                    <h2>湯品</h2>
+                </div>
+            </div>
+            <div class="row foods">
+                <div class="food" openFoodModal="0">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>番茄(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+                <div class="food" openFoodModal="1">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>咖哩(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+                <div class="food" openFoodModal="2">
+                    <img src="./image/Menu_SpicyKoreanBeef.png">
+                    <div class="border"></div>
+                    <p>紅趜(牛/雞)燴麵</p>
+                    <p>70元</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="row">
+        <div class="footerPart0">
+            <img src="./image/brand-black.png" title="牛小棧">
+            <p>Copyright © 2018 牛小棧 All Rights.</p>
+        </div>
+        <div class="footerPart1">
+            <p>聯絡資訊</p>
+            <p>地址： 台北市信義區市府路1號</p>
+            <p>電話： 02 1234 5678</p>
+        </div>
+        <div class="footerPart2">
+            <div>
+                <a href="#">
+                    <img src="./image/facebook-2-64x64.png">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h1>Title</h1>
+            </div>
+            <div class="modal-body">
+                <div class="infoParent">
+                    <p>detail</p>
+                </div>
+                <img src="./image/Menu_SpicyKoreanBeef.png">
+            </div>
+            <div class="modal-footer">
+                <button class="footer-close-button" type="button">Close</button>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>

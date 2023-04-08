@@ -1,0 +1,43 @@
+.row {
+    display: flex;
+}
+
+.header_main {
+    background: black;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
+
+.brand {
+    height: 30px;
+    padding-left: 60px;
+    transform: scale(1.60);
+}
+
+.header_nav-bar {
+    padding: 15px 0;
+}
+
+.nav {
+    float: right;
+    line-height: 30px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.menu-item.none {
+    width: 40px;
+    height: 2px;
+    background: #b4292c;
+    margin-bottom: 4px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+}
